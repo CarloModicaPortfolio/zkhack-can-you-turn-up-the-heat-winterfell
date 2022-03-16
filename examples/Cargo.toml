@@ -33,6 +33,11 @@ log = { version = "0.4", default-features = false }
 blake3 = { version = "1.0", default-features = false }
 env_logger = { version = "0.9", default-features = false }
 structopt = { version = "0.3", default-features = false }
+crypto = { version = "0.3", path = "../crypto", package = "winter-crypto", default-features = false }
+math = { version = "0.3", path = "../math", package = "winter-math", default-features = false }
+utils = { version = "0.3", path = "../utils/core", package = "winter-utils", default-features = false }
+winter-fri = "0.3.0"
+
 
 [dev-dependencies]
 criterion = "0.3"

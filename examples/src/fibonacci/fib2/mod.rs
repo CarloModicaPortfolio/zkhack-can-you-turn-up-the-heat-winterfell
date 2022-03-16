@@ -12,7 +12,7 @@ use winterfell::{
     ProofOptions, Prover, StarkProof, Trace, TraceTable, VerifierError,
 };
 
-mod air;
+pub mod air;
 use air::{FibAir, FibInputs};
 
 mod prover;
